@@ -1,3 +1,0 @@
-This is the second template.
-
-test variable 2:  {{ test_variable }}

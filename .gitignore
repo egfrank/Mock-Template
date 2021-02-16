@@ -1,1 +1,13 @@
 venv
+.*.sw*
+*.egg
+*.egg-info
+*.log
+*.py[cod]
+Ctl/.state/
+build/
+*.pyc
+*.sqlite3
+*.sql
+*.egg-info
+.pytest-cache
