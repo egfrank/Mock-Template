@@ -1,5 +1,4 @@
 #!/bin/sh
-{% raw %}
 
 function migrate_all() {
   echo applying all migrations
@@ -48,4 +47,3 @@ case "$@" in
     exec manage $@
     ;;
 esac
-{% endraw %}
