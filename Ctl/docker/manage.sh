@@ -1,5 +1,7 @@
 SERVICE_HOME={{ service_home }}
-. "$SERVICE_HOME/{{ virtual_env }}/bin/activate"
+VIRTUAL_ENV={{ virtual_env }}
+
+. "$SERVICE_HOME/$VIRTUAL_ENV/bin/activate"
 cd "$SERVICE_HOME/main"
 
 ./manage.py $@
