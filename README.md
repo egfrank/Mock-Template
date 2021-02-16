@@ -1,5 +1,3 @@
-Hello world.
+This is simple jinja2 template.
 
-This is an example of using template vars in a file.
-
-The name of this package is {{  }}.
+test variable: {{ test_variable }}
