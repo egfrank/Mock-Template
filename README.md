@@ -1,3 +1,4 @@
-This is simple jinja2 template.
+# {{ project_name }}
 
-test variable: {{ test_variable }}
+
+This is a sample Readme.
